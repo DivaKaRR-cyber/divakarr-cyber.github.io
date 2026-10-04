@@ -1,0 +1,1609 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Degree College Upardaha Baraut Prayagraj | Official Portal</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Inter, Cinzel & Noto Sans Devanagari -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            college: {
+              navy: '#0b1d3a',
+              navyLight: '#162e54',
+              navyDark: '#061122',
+              gold: '#c99732',
+              goldLight: '#e6be68',
+              goldDark: '#996f1b',
+              cream: '#faf8f2',
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            serif: ['Cinzel', 'serif'],
+            hindi: ['Noto Sans Devanagari', 'sans-serif']
+          },
+          animation: {
+            'marquee': 'marquee 28s linear infinite',
+          },
+          keyframes: {
+            marquee: {
+              '0%': { transform: 'translateX(100%)' },
+              '100%': { transform: 'translateX(-100%)' }
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    @media print {
+      body * {
+        visibility: hidden !important;
+      }
+      #printResultSection, #printResultSection * {
+        visibility: visible !important;
+      }
+      #printResultSection {
+        position: absolute !important;
+        left: 0 !important;
+        top: 0 !important;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 24px !important;
+        background: #ffffff !important;
+        color: #000000 !important;
+        border: none !important;
+        box-shadow: none !important;
+      }
+      .no-print {
+        display: none !important;
+      }
+    }
+
+    .gold-gradient {
+      background: linear-gradient(135deg, #c99732 0%, #f4d078 50%, #b38222 100%);
+    }
+
+    .navy-gradient {
+      background: linear-gradient(135deg, #061122 0%, #0b1d3a 50%, #162e54 100%);
+    }
+
+    /* Custom smooth scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f1f5f9;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #0b1d3a;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #c99732;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased flex flex-col min-h-screen">
+
+  <!-- Topmost Notification & Quick Helpline Bar -->
+  <div class="bg-college-navyDark text-slate-200 text-xs py-2 border-b border-college-gold/30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap justify-between items-center gap-2">
+      <div class="flex items-center gap-4 flex-wrap">
+        <span class="flex items-center gap-1.5 text-college-goldLight font-medium">
+          <i data-lucide="map-pin" class="w-3.5 h-3.5 text-college-gold"></i> Upardaha, Baraut, Prayagraj, Uttar Pradesh - 221502
+        </span>
+        <span class="hidden md:inline text-slate-500">|</span>
+        <a href="tel:7309910967" class="hover:text-college-goldLight flex items-center gap-1.5 transition">
+          <i data-lucide="phone" class="w-3.5 h-3.5 text-college-gold"></i> +91 7309910967
+        </a>
+        <a href="mailto:scholars0928@gmail.com" class="hover:text-college-goldLight flex items-center gap-1.5 transition">
+          <i data-lucide="mail" class="w-3.5 h-3.5 text-college-gold"></i> scholars0928@gmail.com
+        </a>
+      </div>
+      <div class="flex items-center gap-2 text-[11px]">
+        <span class="bg-college-gold/20 text-college-goldLight px-2.5 py-0.5 rounded border border-college-gold/40 font-semibold tracking-wider uppercase">
+          Affiliated: PRSU Prayagraj (Rajju Bhaiya Univ)
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Primary Header & Branding Bar -->
+  <header class="bg-white border-b border-slate-200 shadow-sm sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5">
+      <div class="flex items-center justify-between gap-4">
+        
+        <!-- Official College Emblem & Name -->
+        <a href="#home" class="flex items-center gap-3.5 group focus:outline-none">
+          <!-- Scalable Vector College Emblem -->
+          <div class="w-16 h-16 sm:w-20 sm:h-20 shrink-0 bg-college-navy rounded-full p-1.5 border-2 border-college-gold shadow-md flex items-center justify-center transition-transform group-hover:scale-105">
+            <svg viewBox="0 0 100 100" class="w-full h-full text-college-gold" fill="currentColor">
+              <circle cx="50" cy="50" r="46" fill="none" stroke="#c99732" stroke-width="2.5"/>
+              <circle cx="50" cy="50" r="41" fill="none" stroke="#e6be68" stroke-width="1" stroke-dasharray="2,2"/>
+              <!-- Torch of Learning -->
+              <path d="M50 22 C47 31 40 35 40 42 C40 48 45 52 50 52 C55 52 60 48 60 42 C60 35 53 31 50 22 Z" fill="#e6be68" />
+              <path d="M50 29 C48 34 44 36 44 40 C44 44 47 46 50 46 C53 46 56 44 56 40 C56 36 52 34 50 29 Z" fill="#ffffff" />
+              <!-- Open Book Base of Knowledge -->
+              <path d="M22 60 C34 56 46 58 50 63 C54 58 66 56 78 60 L78 74 C66 70 54 72 50 78 C46 72 34 70 22 74 Z" fill="#c99732" opacity="0.95" />
+              <path d="M50 63 L50 78" stroke="#0b1d3a" stroke-width="2"/>
+              <text x="50" y="89" text-anchor="middle" font-size="6.5" font-family="'Inter', sans-serif" font-weight="800" fill="#f4d078" letter-spacing="1">ESTD. 2005</text>
+            </svg>
+          </div>
+
+          <div>
+            <span class="block text-xs sm:text-sm font-hindi font-semibold text-college-goldDark">
+              डिग्री कॉलेज ऊपरदहा बरौत प्रयागराज
+            </span>
+            <h1 class="text-base sm:text-xl md:text-2xl font-serif font-extrabold text-college-navy tracking-tight uppercase leading-tight">
+              Degree College Upardaha
+            </h1>
+            <p class="text-xs sm:text-sm font-medium text-slate-600">
+              Baraut, Prayagraj, Uttar Pradesh - 221502
+            </p>
+            <p class="text-[11px] font-medium text-college-navy/80 hidden sm:block">
+              Affiliated with Prof. Rajendra Singh (Rajju Bhaiya) University, Prayagraj, U.P.
+            </p>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden lg:flex items-center gap-1.5 font-medium text-sm">
+          <a href="#home" class="px-3 py-2 rounded-lg text-slate-700 hover:text-college-navy hover:bg-slate-100 font-semibold transition">Home</a>
+          <a href="#notices" class="px-3 py-2 rounded-lg text-slate-700 hover:text-college-navy hover:bg-slate-100 transition">Notice Board</a>
+          <a href="#results" class="px-3 py-2 rounded-lg text-slate-700 hover:text-college-navy hover:bg-slate-100 transition">Results</a>
+          <a href="#courses" class="px-3 py-2 rounded-lg text-slate-700 hover:text-college-navy hover:bg-slate-100 transition">Courses</a>
+          <a href="#downloads" class="px-3 py-2 rounded-lg text-slate-700 hover:text-college-navy hover:bg-slate-100 transition">Downloads</a>
+          <a href="#gallery" class="px-3 py-2 rounded-lg text-slate-700 hover:text-college-navy hover:bg-slate-100 transition">Gallery</a>
+          <a href="#results" class="ml-2 px-4 py-2 rounded-lg bg-college-gold text-college-navy font-bold hover:bg-college-goldLight shadow-sm transition flex items-center gap-1.5">
+            <i data-lucide="award" class="w-4 h-4"></i> Check Result
+          </a>
+        </nav>
+
+        <!-- Mobile Navigation Toggle -->
+        <button id="mobileMenuBtn" type="button" aria-label="Toggle Navigation Menu" class="lg:hidden p-2 rounded-lg border border-slate-300 text-college-navy hover:bg-slate-100">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+
+      <!-- Mobile Dropdown Navigation -->
+      <div id="mobileMenu" class="hidden lg:hidden pt-4 pb-2 border-t mt-3 space-y-1">
+        <a href="#home" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-college-navy hover:bg-slate-100">Home</a>
+        <a href="#notices" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Notice Board</a>
+        <a href="#results" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Results Verification</a>
+        <a href="#courses" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Courses</a>
+        <a href="#downloads" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Downloads</a>
+        <a href="#gallery" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-100">Photo Gallery</a>
+        <div class="pt-2">
+          <a href="#results" class="mobile-nav-link block text-center w-full px-4 py-2.5 rounded-lg bg-college-navy text-college-goldLight font-bold">
+            Search Student Result
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="bg-amber-50 border-y border-amber-200 text-amber-950 py-2.5 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 flex items-center gap-3">
+      <span class="inline-flex items-center gap-1.5 bg-college-navy text-college-goldLight text-xs font-bold uppercase px-3 py-1 rounded shadow-sm shrink-0 border border-college-gold/40">
+        <i data-lucide="bell" class="w-3.5 h-3.5 animate-bounce"></i> Flash Notice
+      </span>
+      <div class="overflow-hidden whitespace-nowrap text-xs sm:text-sm font-medium w-full">
+        <div class="inline-block animate-marquee pl-full">
+          🎓 <strong>PRSU University Results Declared:</strong> Semester examination scorecards are now accessible online. Enter your roll number in our Results portal. &nbsp;&nbsp;|&nbsp;&nbsp;
+          ⚡ <strong>Session Admissions Open:</strong> Degree College Upardaha Baraut invites applications for B.A., B.Sc., B.Com., M.A., M.Sc., M.Com., B.Ed., B.P.Ed., LL.B. & ITI trades. &nbsp;&nbsp;|&nbsp;&nbsp;
+          📋 <strong>UP Post-Matric Scholarship:</strong> Submit verified photocopies at Academic Counter 2 before deadline.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main class="flex-grow">
+    <section id="home" class="relative navy-gradient text-white overflow-hidden py-14 sm:py-20 lg:py-24 border-b-4 border-college-gold">
+      <!-- Radial geometric pattern background -->
+      <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#d4af37_1px,transparent_1px)] [background-size:24px_24px]"></div>
+
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-12 gap-10 items-center">
+          
+          <div class="lg:col-span-8 space-y-6">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-xs sm:text-sm text-college-goldLight font-medium">
+              <i data-lucide="award" class="w-4 h-4 text-college-gold"></i> Recognized Center for Academic Excellence & Discipline
+            </div>
+
+            <div class="space-y-2">
+              <h2 class="text-3xl sm:text-5xl lg:text-6xl font-serif font-extrabold tracking-tight leading-tight">
+                Degree College <span class="text-college-goldLight">Upardaha</span>
+              </h2>
+              <p class="text-lg sm:text-xl font-medium text-slate-300">
+                Baraut, Prayagraj (Allahabad), Uttar Pradesh
+              </p>
+              <div class="inline-block px-3 py-1 bg-white/10 rounded-md border border-college-gold/40 text-xs sm:text-sm text-amber-200">
+                Affiliated with Prof. Rajendra Singh (Rajju Bhaiya) University, Prayagraj
+              </div>
+            </div>
+
+            <p class="text-slate-200 text-sm sm:text-base leading-relaxed max-w-2xl">
+              Welcome to the official digital portal of Degree College Upardaha Baraut Prayagraj. Established to impart holistic, values-based, and career-oriented higher education across undergraduate, postgraduate, law, teacher training, and technical domains in rural and semi-urban Prayagraj.
+            </p>
+
+            <!-- Important Quick Action Links -->
+            <div class="flex flex-wrap gap-3 pt-2">
+              <a href="#results" class="px-6 py-3 rounded-xl bg-college-gold text-college-navy font-bold text-sm hover:bg-college-goldLight transition shadow-lg hover:shadow-college-gold/20 flex items-center gap-2">
+                <i data-lucide="graduation-cap" class="w-4 h-4"></i> Check Results Online
+              </a>
+              <a href="#notices" class="px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold text-sm border border-white/25 transition flex items-center gap-2">
+                <i data-lucide="file-text" class="w-4 h-4"></i> Notice Board
+              </a>
+              <a href="#downloads" class="px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold text-sm border border-white/25 transition flex items-center gap-2">
+                <i data-lucide="download" class="w-4 h-4"></i> Download Forms
+              </a>
+            </div>
+
+            <!-- Quantitative Institutional Stats -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-6 border-t border-white/15">
+              <div>
+                <p class="text-3xl font-serif font-bold text-college-goldLight">10</p>
+                <p class="text-xs text-slate-300 uppercase tracking-wide">Approved Degrees</p>
+              </div>
+              <div>
+                <p class="text-3xl font-serif font-bold text-college-goldLight">100%</p>
+                <p class="text-xs text-slate-300 uppercase tracking-wide">PRSU Curriculum</p>
+              </div>
+              <div>
+                <p class="text-3xl font-serif font-bold text-college-goldLight">20K+</p>
+                <p class="text-xs text-slate-300 uppercase tracking-wide">Library Books</p>
+              </div>
+              <div>
+                <p class="text-3xl font-serif font-bold text-college-goldLight">2005</p>
+                <p class="text-xs text-slate-300 uppercase tracking-wide">Year Established</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Prominent College Seal & Highlight Preview Card -->
+          <div class="lg:col-span-4">
+            <div class="bg-white/95 text-slate-900 rounded-3xl p-6 sm:p-7 shadow-2xl border-2 border-college-gold backdrop-blur-sm">
+              <div class="text-center pb-5 border-b border-slate-200">
+                <!-- Large Logo Seal -->
+                <div class="w-28 h-28 mx-auto mb-3 rounded-full bg-college-navy p-2 border-4 border-college-gold shadow-lg flex items-center justify-center">
+                  <svg viewBox="0 0 100 100" class="w-full h-full text-college-gold" fill="currentColor">
+                    <circle cx="50" cy="50" r="46" fill="none" stroke="#c99732" stroke-width="2.5"/>
+                    <circle cx="50" cy="50" r="41" fill="none" stroke="#e6be68" stroke-width="1" stroke-dasharray="2,2"/>
+                    <path d="M50 22 C47 31 40 35 40 42 C40 48 45 52 50 52 C55 52 60 48 60 42 C60 35 53 31 50 22 Z" fill="#e6be68" />
+                    <path d="M22 60 C34 56 46 58 50 63 C54 58 66 56 78 60 L78 74 C66 70 54 72 50 78 C46 72 34 70 22 74 Z" fill="#c99732" />
+                    <text x="50" y="89" text-anchor="middle" font-size="6.5" font-family="'Inter', sans-serif" font-weight="bold" fill="#f4d078">ESTD. 2005</text>
+                  </svg>
+                </div>
+                <h3 class="font-serif font-bold text-college-navy text-lg sm:text-xl">Degree College Upardaha</h3>
+                <p class="text-xs text-slate-600 font-medium">Baraut, Prayagraj, UP</p>
+                <span class="inline-block mt-1 text-[11px] font-semibold text-college-goldDark bg-amber-50 px-2 py-0.5 rounded border border-amber-200">
+                  Affiliated: PRSU Prayagraj
+                </span>
+              </div>
+
+              <div class="py-4 space-y-3 text-xs sm:text-sm">
+                <div class="flex items-start gap-2.5">
+                  <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5"></i>
+                  <span>Official university semester & annual examination center</span>
+                </div>
+                <div class="flex items-start gap-2.5">
+                  <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5"></i>
+                  <span>NCTE & BCI aligned professional education wings (B.Ed., LL.B.)</span>
+                </div>
+                <div class="flex items-start gap-2.5">
+                  <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5"></i>
+                  <span>UP Govt. Scholarship assistance & administrative desk</span>
+                </div>
+              </div>
+
+              <div class="pt-2">
+                <a href="#courses" class="w-full block text-center py-2.5 px-4 rounded-xl bg-college-navy text-college-goldLight text-xs uppercase tracking-wider font-bold hover:bg-college-navyLight transition shadow">
+                  Explore Academic Faculties &rarr;
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="notices" class="py-16 bg-white border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4 border-b border-slate-200 pb-4">
+          <div>
+            <div class="flex items-center gap-2 text-college-goldDark font-semibold text-xs uppercase tracking-wider">
+              <i data-lucide="megaphone" class="w-4 h-4 text-college-gold"></i> Official College Bulletins
+            </div>
+            <h2 class="text-2xl sm:text-3xl font-serif font-bold text-college-navy mt-1">Notice Board / सूचना पट्ट</h2>
+            <p class="text-slate-600 text-sm mt-1">Stay updated with academic circulars, PRSU exam notifications, fee deadlines, and college notices.</p>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <!-- Administrator Live Update Trigger -->
+            <button onclick="openNoticeModal()" class="px-3.5 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-college-navy text-xs font-semibold flex items-center gap-1.5 transition border border-slate-300 shadow-sm">
+              <i data-lucide="plus-circle" class="w-4 h-4 text-college-goldDark"></i> Admin: Post Notice
+            </button>
+          </div>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="flex flex-wrap gap-2 mb-6">
+          <button onclick="filterNotices('all')" class="notice-filter-btn active-filter px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-college-navy text-white transition" data-category="all">All Notices</button>
+          <button onclick="filterNotices('Examination')" class="notice-filter-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition" data-category="Examination">Examination</button>
+          <button onclick="filterNotices('Admission')" class="notice-filter-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition" data-category="Admission">Admission</button>
+          <button onclick="filterNotices('Scholarship')" class="notice-filter-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition" data-category="Scholarship">Scholarship</button>
+          <button onclick="filterNotices('General')" class="notice-filter-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition" data-category="General">General</button>
+        </div>
+
+        <!-- Notices Container -->
+        <div id="noticeList" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <!-- Populated dynamically via JavaScript with LocalStorage sync -->
+        </div>
+
+      </div>
+    </section>
+
+    <section id="results" class="py-16 bg-slate-100 border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="max-w-3xl mx-auto text-center mb-10">
+          <span class="text-xs font-bold uppercase tracking-wider text-college-goldDark bg-college-gold/10 px-3 py-1 rounded-full border border-college-gold/30">
+            Student Assessment Records
+          </span>
+          <h2 class="text-2xl sm:text-4xl font-serif font-bold text-college-navy mt-3">
+            Student Examination Results / परीक्षा परिणाम
+          </h2>
+          <p class="text-slate-600 text-sm mt-2">
+            Enter your official University Roll Number to review semester performance and generate a printable provisional statement of marks.
+          </p>
+        </div>
+
+        <!-- Search Input Card -->
+        <div class="max-w-2xl mx-auto bg-white p-6 sm:p-8 rounded-2xl shadow-md border border-slate-200 mb-8">
+          <form id="resultSearchForm" onsubmit="handleResultSearch(event)" class="space-y-4">
+            <div>
+              <label for="rollNumberInput" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
+                University Roll Number / अनुक्रमांक
+              </label>
+              <div class="relative">
+                <input 
+                  type="text" 
+                  id="rollNumberInput" 
+                  placeholder="e.g. 240101, 240102, 240103, 240104..." 
+                  class="w-full pl-11 pr-4 py-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-college-navy focus:border-college-navy text-sm font-medium text-slate-800"
+                  required
+                >
+                <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+                  <i data-lucide="fingerprint" class="w-5 h-5"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-wrap items-center justify-between gap-3 pt-2">
+              <span class="text-xs text-slate-500">
+                Sample Demonstrative Roll Numbers: 
+                <button type="button" class="text-college-navy font-bold underline mx-1 hover:text-college-goldDark" onclick="fillSample('240101')">240101</button>,
+                <button type="button" class="text-college-navy font-bold underline mx-1 hover:text-college-goldDark" onclick="fillSample('240102')">240102</button>,
+                <button type="button" class="text-college-navy font-bold underline mx-1 hover:text-college-goldDark" onclick="fillSample('240103')">240103</button>,
+                <button type="button" class="text-college-navy font-bold underline mx-1 hover:text-college-goldDark" onclick="fillSample('240104')">240104</button>
+              </span>
+              <button 
+                type="submit" 
+                class="px-6 py-2.5 bg-college-navy hover:bg-college-navyLight text-college-goldLight font-bold text-sm rounded-xl transition flex items-center gap-2 shadow-sm"
+              >
+                <i data-lucide="search" class="w-4 h-4"></i> Show Result
+              </button>
+            </div>
+          </form>
+
+          <!-- External University Official Portal Link -->
+          <div class="mt-6 pt-5 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-3 bg-amber-50/60 p-3.5 rounded-xl border border-amber-200/60">
+            <div class="flex items-center gap-2 text-xs text-amber-900">
+              <i data-lucide="external-link" class="w-4 h-4 text-college-goldDark shrink-0"></i>
+              <span>Access official university mainframe for all affiliated programs & back-papers:</span>
+            </div>
+            <a 
+              href="https://prsuprayagraj.in" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="text-xs font-bold text-college-navy bg-white px-3 py-1.5 rounded-lg border border-slate-300 hover:border-college-navy transition shrink-0"
+            >
+              PRSU Result Portal &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Rendered Result Scorecard Box -->
+        <div id="resultDisplayBox" class="max-w-3xl mx-auto hidden transition-all duration-300"></div>
+
+        <!-- Not Found Notice -->
+        <div id="resultNotFoundBox" class="max-w-md mx-auto hidden bg-rose-50 border border-rose-200 text-rose-800 p-5 rounded-2xl text-center text-sm shadow-sm">
+          <i data-lucide="alert-circle" class="w-6 h-6 mx-auto mb-1 text-rose-600"></i>
+          <p class="font-bold">Roll Number Not Located</p>
+          <p class="text-xs text-rose-700 mt-1">Please double-check the digits entered. For demonstration, try roll number: <strong>240101</strong>.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="courses" class="py-16 bg-white border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-12">
+          <span class="text-xs font-bold uppercase tracking-wider text-college-goldDark bg-college-gold/10 px-3 py-1 rounded-full border border-college-gold/30">
+            Higher Education Curriculum
+          </span>
+          <h2 class="text-2xl sm:text-4xl font-serif font-bold text-college-navy mt-3">
+            Academic Courses Offered
+          </h2>
+          <p class="text-slate-600 text-sm mt-2">
+            Degree College Upardaha Baraut provides 10 accredited undergraduate, postgraduate, law, teacher education, and vocational programs.
+          </p>
+        </div>
+
+        <!-- 10 Specified Course Cards -->
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+          <!-- 1. B.A. -->
+          <div class="bg-slate-50 border border-slate-200 hover:border-college-gold rounded-2xl p-6 transition shadow-sm hover:shadow-md flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-3">
+                <span class="text-xs font-bold bg-blue-100 text-blue-800 px-2.5 py-1 rounded-md">Undergraduate</span>
+                <span class="text-xs font-semibold text-slate-500">Duration: 3 Years</span>
+              </div>
+              <h3 class="text-lg font-serif font-bold text-college-navy">B.A. – Bachelor of Arts</h3>
+              <p class="text-xs font-hindi text-slate-500 mt-0.5">स्नातक कला संकाय</p>
+              <p class="text-xs text-slate-600 mt-3 leading-relaxed">
+                Hindi Literature, English, Ancient & Modern History, Political Science, Sociology, Sanskrit, and Economics.
+              </p>
+            </div>
+            <div class="mt-5 pt-4 border-t border-slate-200 text-xs text-slate-600 flex justify-between">
+              <span>Eligibility: 10+2 Any Stream</span>
+              <span class="font-bold text-college-navy">Seats: 480</span>
+            </div>
+          </div>
+
+          <!-- 2. B.Sc. -->
+          <div class="bg-slate-50 border border-slate-200 hover:border-college-gold rounded-2xl p-6 transition shadow-sm hover:shadow-md flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-3">
+                <span class="text-xs font-bold bg-emerald-100 text-emerald-800 px-2.5 py-1 rounded-md">Undergraduate</span>
+                <span class="text-xs font-semibold text-slate-500">Duration: 3 Years</span>
+              </div>
+              <h3 class="text-lg font-serif font-bold text-college-navy">B.Sc. – Bachelor of Science</h3>
+              <p class="text-xs font-hindi text-slate-500 mt-0.5">स्नातक विज्ञान संकाय</p>
+              <p class="text-xs text-slate-600 mt-3 leading-relaxed">
+                Physics, Chemistry, Mathematics (PCM) and Zoology, Botany, Chemistry (ZBC) with full laboratory practical curricula.
+              </p>
+            </div>
+            <div class="mt-5 pt-4 border-t border-slate-200 text-xs text-slate-600 flex justify-between">
+              <span>Eligibility: 10+2 with Science</span>
+              <span class="font-bold text-college-navy">Seats: 360</span>
+            </div>
+          </div>
+
+          <!-- 3. B.Com. -->
+          <div class="bg-slate-50 border border-slate-200 hover:border-college-gold rounded-2xl p-6 transition shadow-sm hover:shadow-md flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-3">
+                <span class="text-xs font-bold bg-amber-100 text-amber-800 px-2.5 py-1 rounded-md">Undergraduate</span>
+                <span class="text-xs font-semibold text-slate-500">Duration: 3 Years</span>
+              </div>
+              <h3 class="text-lg font-serif font-bold text-college-navy">B.Com. – Bachelor of Commerce</h3>
+              <p class="text-xs font-hindi text-slate-500 mt-0.5">स्नातक वाणिज्य संकाय</p>
+              <p class="text-xs text-slate-600 mt-3 leading-relaxed">
+                Corporate accounting, business mathematics, taxation principles, commercial law, banking, and business economics.
+              </p>
+            </div>
+            <div class="mt-5 pt-4 border-t border-slate-200 text-xs text-slate-600 flex justify-between">
+              <span>Eligibility: 10+2 Commerce/Science</span>
+              <span class="font-bold text-college-navy">Seats: 180</span>
+            </div>
+          </div>
+
+          <!-- 4. M.A. -->
+          <div class="bg-slate-50 border border-slate-200 hover:border-college-gold rounded-2xl p-6 transition shadow-sm hover:shadow-md flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-3">
+                <span class="text-xs font-bold bg-purple-100 text-purple-800 px-2.5 py-1 rounded-md">Postgraduate</span>
+                <span class="text-xs font-semibold text-slate-500">Duration: 2 Years</span>
+              </div>
+              <h3 class="text-lg font-serif font-bold text-college-navy">M.A. – Master of Arts</h3>
+              <p class="text-xs font-hindi text-slate-500 mt-0.5">परास्नातक कला संकाय</p>
+              <p class="text-xs text-slate-600 mt-3 leading-relaxed">
+                In-depth master degree programs in Hindi Literature, History, Political Science, and Sociology for research and civil exams.
+              </p>
+            </div>
+            <div class="mt-5 pt-4 border-t border-slate-200 text-xs text-slate-600 flex justify-between">
+              <span>Eligibility: Graduation (B.A./Any)</span>
+              <span class="font-bold text-college-navy">Seats: 120</span>
+            </div>
+          </div>
+
+          <!-- 5. M.Sc. -->
+          <div class="bg-slate-50 border border-slate-200 hover:border-college-gold rounded-2xl p-6 transition shadow-sm hover:shadow-md flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-3">
+                <span class="text-xs font-bold bg-purple-100 text-purple-800 px-2.5 py-1 rounded-md">Postgraduate</span>
+                <span class="text-xs font-semibold text-slate-500">Duration: 2 Years</span>
+              </div>
+              <h3 class="text-lg font-serif font-bold text-college-navy">M.Sc. – Master of Science</h3>
+              <p class="text-xs font-hindi text-slate-500 mt-0.5">परास्नातक विज्ञान संकाय</p>
+              <p class="text-xs text-slate-600 mt-3 leading-relaxed">
+                Postgraduate study in Chemistry, Mathematics, and Botany equipped with dedicated modern instrumentation.
+              </p>
+            </div>
+            <div class="mt-5 pt-4 border-t border-slate-200 text-xs text-slate-600 flex justify-between">
+              <span>Eligibility: B.Sc. in relevant subject</span>
+              <span class="font-bold text-college-navy">Seats: 60</span>
+            </div>
+          </div>
+
+          <!-- 6. M.Com. -->
+          <div class="bg-slate-50 border border-slate-200 hover:border-college-gold rounded-2xl p-6 transition shadow-sm hover:shadow-md flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-3">
+                <span class="text-xs font-bold bg-purple-100 text-purple-800 px-2.5 py-1 rounded-md">Postgraduate</span>
+                <span class="text-xs font-semibold text-slate-500">Duration: 2 Years</span>
+              </div>
+              <h3 class="text-lg font-serif font-bold text-college-navy">M.Com. – Master of Commerce</h3>
+              <p class="text-xs font-hindi text-slate-500 mt-0.5">परास्नातक वाणिज्य संकाय</p>
+              <p class="text-xs text-slate-600 mt-3 leading-relaxed">
+                Advanced corporate financial reporting, business management strategies, quantitative commerce, and marketing research.
+              </p>
+            </div>
+            <div class="mt-5 pt-4 border-t border-slate-200 text-xs text-slate-600 flex justify-between">
+              <span>Eligibility: B.Com. Degree</span>
+              <span class="font-bold text-college-navy">Seats: 60</span>
+            </div>
+          </div>
+
+          <!-- 7. B.Ed. -->
+          <div class="bg-amber-50/50 border border-amber-200 hover:border-college-gold rounded-2xl p-6 transition shadow-sm hover:shadow-md flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-3">
+                <span class="text-xs font-bold bg-college-navy text-white px-2.5 py-1 rounded-md">Teacher Education</span>
+                <span class="text-xs font-semibold text-slate-500">Duration: 2 Years</span>
+              </div>
+              <h3 class="text-lg font-serif font-bold text-college-navy">B.Ed. – Bachelor of Education</h3>
+              <p class="text-xs font-hindi text-slate-500 mt-0.5">शिक्षक प्रशिक्षण संकाय</p>
+              <p class="text-xs text-slate-600 mt-3 leading-relaxed">
+                NCTE recognized pedagogical training, educational technology, school internships, and classroom instruction methodologies.
+              </p>
+            </div>
+            <div class="mt-5 pt-4 border-t border-amber-200 text-xs text-slate-600 flex justify-between">
+              <span>Eligibility: Graduation with 50%</span>
+              <span class="font-bold text-college-navy">Seats: 100</span>
+            </div>
+          </div>
+
+          <!-- 8. B.P.Ed. -->
+          <div class="bg-amber-50/50 border border-amber-200 hover:border-college-gold rounded-2xl p-6 transition shadow-sm hover:shadow-md flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-3">
+                <span class="text-xs font-bold bg-college-navy text-white px-2.5 py-1 rounded-md">Physical Education</span>
+                <span class="text-xs font-semibold text-slate-500">Duration: 2 Years</span>
+              </div>
+              <h3 class="text-lg font-serif font-bold text-college-navy">B.P.Ed. – Bachelor of Physical Ed.</h3>
+              <p class="text-xs font-hindi text-slate-500 mt-0.5">शारीरिक शिक्षा संकाय</p>
+              <p class="text-xs text-slate-600 mt-3 leading-relaxed">
+                Specialized program in sports pedagogy, exercise physiology, athletic conditioning, sports administration, and track coaching.
+              </p>
+            </div>
+            <div class="mt-5 pt-4 border-t border-amber-200 text-xs text-slate-600 flex justify-between">
+              <span>Eligibility: Graduation + Sports</span>
+              <span class="font-bold text-college-navy">Seats: 50</span>
+            </div>
+          </div>
+
+          <!-- 9. LL.B. -->
+          <div class="bg-blue-50/50 border border-blue-200 hover:border-college-gold rounded-2xl p-6 transition shadow-sm hover:shadow-md flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-3">
+                <span class="text-xs font-bold bg-college-navy text-white px-2.5 py-1 rounded-md">Law Faculty</span>
+                <span class="text-xs font-semibold text-slate-500">Duration: 3 Years</span>
+              </div>
+              <h3 class="text-lg font-serif font-bold text-college-navy">LL.B. – Bachelor of Laws</h3>
+              <p class="text-xs font-hindi text-slate-500 mt-0.5">विधि संकाय</p>
+              <p class="text-xs text-slate-600 mt-3 leading-relaxed">
+                Bar Council accredited curriculum covering Constitutional Law, Criminal Laws (BNS/IPC), Civil Code, Jurisprudence, and Moot Courts.
+              </p>
+            </div>
+            <div class="mt-5 pt-4 border-t border-blue-200 text-xs text-slate-600 flex justify-between">
+              <span>Eligibility: Graduation Any Stream</span>
+              <span class="font-bold text-college-navy">Seats: 120</span>
+            </div>
+          </div>
+
+          <!-- 10. ITI -->
+          <div class="bg-slate-100 border border-slate-300 hover:border-college-gold rounded-2xl p-6 transition shadow-sm hover:shadow-md flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-3">
+                <span class="text-xs font-bold bg-slate-800 text-college-goldLight px-2.5 py-1 rounded-md">Technical / Trades</span>
+                <span class="text-xs font-semibold text-slate-500">Duration: 2 Years</span>
+              </div>
+              <h3 class="text-lg font-serif font-bold text-college-navy">ITI – Industrial Training Institute</h3>
+              <p class="text-xs font-hindi text-slate-500 mt-0.5">व्यावसायिक प्रशिक्षण</p>
+              <p class="text-xs text-slate-600 mt-3 leading-relaxed">
+                Technical vocational training in Electrician and Fitter trades with hands-on heavy workshop machinery and electrical panels.
+              </p>
+            </div>
+            <div class="mt-5 pt-4 border-t border-slate-300 text-xs text-slate-600 flex justify-between">
+              <span>Eligibility: 10th Standard Pass</span>
+              <span class="font-bold text-college-navy">Seats: 120</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="downloads" class="py-16 bg-slate-50 border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
+          <div>
+            <span class="text-xs font-bold uppercase tracking-wider text-college-goldDark bg-college-gold/10 px-3 py-1 rounded-full border border-college-gold/30">
+              Official Downloads
+            </span>
+            <h2 class="text-2xl sm:text-3xl font-serif font-bold text-college-navy mt-2">
+              Downloads & Proformas / डाउनलोड प्रपत्र
+            </h2>
+            <p class="text-slate-600 text-sm mt-1">Download official admission forms, UP scholarship declarations, exam guidelines, and academic calendars.</p>
+          </div>
+        </div>
+
+        <!-- Downloads Tab Filter -->
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+          <div class="flex flex-wrap border-b bg-slate-100/70 p-2 gap-2">
+            <button onclick="switchDownloadTab('all')" class="dl-tab-btn active-dl-tab px-4 py-2 rounded-lg text-xs font-bold bg-college-navy text-white transition" data-dltab="all">
+              All Files
+            </button>
+            <button onclick="switchDownloadTab('admission')" class="dl-tab-btn px-4 py-2 rounded-lg text-xs font-bold bg-white text-slate-700 hover:bg-slate-200 transition" data-dltab="admission">
+              Admission Forms
+            </button>
+            <button onclick="switchDownloadTab('exam')" class="dl-tab-btn px-4 py-2 rounded-lg text-xs font-bold bg-white text-slate-700 hover:bg-slate-200 transition" data-dltab="exam">
+              Examination Notices
+            </button>
+            <button onclick="switchDownloadTab('scholarship')" class="dl-tab-btn px-4 py-2 rounded-lg text-xs font-bold bg-white text-slate-700 hover:bg-slate-200 transition" data-dltab="scholarship">
+              Scholarship Forms
+            </button>
+            <button onclick="switchDownloadTab('academic')" class="dl-tab-btn px-4 py-2 rounded-lg text-xs font-bold bg-white text-slate-700 hover:bg-slate-200 transition" data-dltab="academic">
+              Academic Calendar & Rules
+            </button>
+          </div>
+
+          <!-- Document List Table -->
+          <div class="divide-y divide-slate-100" id="documentsContainer">
+            <!-- Dynamically populated via JavaScript -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="gallery" class="py-16 bg-white border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-10">
+          <span class="text-xs font-bold uppercase tracking-wider text-college-goldDark bg-college-gold/10 px-3 py-1 rounded-full border border-college-gold/30">
+            Campus Infrastructure & Life
+          </span>
+          <h2 class="text-2xl sm:text-4xl font-serif font-bold text-college-navy mt-2">
+            Photo Gallery / चित्र दीर्घा
+          </h2>
+          <p class="text-slate-600 text-sm mt-2">
+            Explore our campus building, lecture halls, central library, academic convocations, and student activities.
+          </p>
+        </div>
+
+        <!-- Filter tabs for Gallery -->
+        <div class="flex flex-wrap justify-center gap-2 mb-8">
+          <button onclick="filterGallery('all')" class="gallery-btn active-gallery-btn px-4 py-1.5 rounded-full text-xs font-semibold bg-college-navy text-white transition" data-gcat="all">All Photos</button>
+          <button onclick="filterGallery('building')" class="gallery-btn px-4 py-1.5 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition" data-gcat="building">College Building</button>
+          <button onclick="filterGallery('classrooms')" class="gallery-btn px-4 py-1.5 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition" data-gcat="classrooms">Classrooms</button>
+          <button onclick="filterGallery('library')" class="gallery-btn px-4 py-1.5 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition" data-gcat="library">Library</button>
+          <button onclick="filterGallery('events')" class="gallery-btn px-4 py-1.5 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition" data-gcat="events">Events</button>
+          <button onclick="filterGallery('activities')" class="gallery-btn px-4 py-1.5 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition" data-gcat="activities">Student Activities</button>
+        </div>
+
+        <!-- Responsive Gallery Grid -->
+        <div id="galleryGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Dynamically populated with SVG educational art and labels -->
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-college-navy text-slate-300 text-sm border-t-4 border-college-gold">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        
+        <!-- Column 1: College Credentials & Seal -->
+        <div class="space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 bg-college-navy rounded-full p-1 border-2 border-college-gold flex items-center justify-center shrink-0">
+              <svg viewBox="0 0 100 100" class="w-full h-full text-college-gold" fill="currentColor">
+                <circle cx="50" cy="50" r="46" fill="none" stroke="#c99732" stroke-width="2"/>
+                <path d="M50 22 C47 31 40 35 40 42 C40 48 45 52 50 52 C55 52 60 48 60 42 C60 35 53 31 50 22 Z" fill="#e6be68" />
+                <path d="M22 60 C34 56 46 58 50 63 C54 58 66 56 78 60 L78 74 C66 70 54 72 50 78 C46 72 34 70 22 74 Z" fill="#c99732" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="font-serif font-bold text-white text-base leading-tight">Degree College Upardaha</h3>
+              <p class="text-xs text-college-goldLight">Baraut, Prayagraj, UP</p>
+            </div>
+          </div>
+          <p class="text-xs text-slate-300 leading-relaxed">
+            Committed to providing holistic education and producing accomplished citizens who contribute to nation building and academic excellence.
+          </p>
+          <div class="text-xs text-amber-200">
+            <strong>Affiliated University:</strong> Prof. Rajendra Singh (Rajju Bhaiya) University, Prayagraj, Uttar Pradesh, India.
+          </div>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div>
+          <h4 class="font-serif font-semibold text-white uppercase tracking-wider text-xs border-b border-white/20 pb-2 mb-3">
+            Portal Navigation
+          </h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="#home" class="hover:text-college-goldLight transition flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3.5 h-3.5 text-college-gold"></i> Home / Main Banner</a></li>
+            <li><a href="#notices" class="hover:text-college-goldLight transition flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3.5 h-3.5 text-college-gold"></i> Notice Board & Circulars</a></li>
+            <li><a href="#results" class="hover:text-college-goldLight transition flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3.5 h-3.5 text-college-gold"></i> Check Examination Results</a></li>
+            <li><a href="#courses" class="hover:text-college-goldLight transition flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3.5 h-3.5 text-college-gold"></i> Academic Programs (10)</a></li>
+            <li><a href="#downloads" class="hover:text-college-goldLight transition flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3.5 h-3.5 text-college-gold"></i> Forms & PDF Downloads</a></li>
+            <li><a href="#gallery" class="hover:text-college-goldLight transition flex items-center gap-1.5"><i data-lucide="chevron-right" class="w-3.5 h-3.5 text-college-gold"></i> Photo Gallery</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Faculties List -->
+        <div>
+          <h4 class="font-serif font-semibold text-white uppercase tracking-wider text-xs border-b border-white/20 pb-2 mb-3">
+            Faculties & Programs
+          </h4>
+          <ul class="space-y-1.5 text-xs text-slate-300">
+            <li>• Faculty of Arts & Humanities (B.A., M.A.)</li>
+            <li>• Faculty of Science (B.Sc., M.Sc.)</li>
+            <li>• Faculty of Commerce (B.Com., M.Com.)</li>
+            <li>• Faculty of Teacher Education (B.Ed.)</li>
+            <li>• Faculty of Physical Education (B.P.Ed.)</li>
+            <li>• Faculty of Law (LL.B. 3-Year)</li>
+            <li>• Industrial Training Institute (ITI)</li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Contact & Office -->
+        <div>
+          <h4 class="font-serif font-semibold text-white uppercase tracking-wider text-xs border-b border-white/20 pb-2 mb-3">
+            College Address & Contact
+          </h4>
+          <ul class="space-y-2.5 text-xs text-slate-300">
+            <li class="flex items-start gap-2">
+              <i data-lucide="map-pin" class="w-4 h-4 text-college-gold shrink-0 mt-0.5"></i>
+              <span>Upardaha, Baraut, Prayagraj, Uttar Pradesh, India - 221502</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="phone" class="w-4 h-4 text-college-gold shrink-0"></i>
+              <a href="tel:7309910967" class="hover:text-college-goldLight font-medium">7309910967</a>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="mail" class="w-4 h-4 text-college-gold shrink-0"></i>
+              <a href="mailto:scholars0928@gmail.com" class="hover:text-college-goldLight">scholars0928@gmail.com</a>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="clock" class="w-4 h-4 text-college-gold shrink-0"></i>
+              <span>Mon – Sat: 09:30 AM to 04:00 PM</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Copyright Sub-Footer -->
+      <div class="mt-10 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-3">
+        <p>&copy; <span id="currentYear"></span> Degree College Upardaha Baraut Prayagraj. All Rights Reserved.</p>
+        <div class="flex items-center gap-4">
+          <span>Affiliated with Prof. Rajendra Singh (Rajju Bhaiya) University, Prayagraj</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Photo Lightbox Modal -->
+  <div id="lightboxModal" class="fixed inset-0 z-50 bg-black/90 hidden items-center justify-center p-4">
+    <button onclick="closeLightbox()" class="absolute top-5 right-5 text-white/80 hover:text-white p-2">
+      <i data-lucide="x" class="w-8 h-8"></i>
+    </button>
+    <div class="max-w-4xl w-full bg-slate-900 rounded-2xl overflow-hidden shadow-2xl border border-slate-700">
+      <div id="lightboxContent" class="w-full flex items-center justify-center bg-black min-h-[350px] max-h-[75vh]"></div>
+      <div class="p-4 bg-slate-900 text-white flex justify-between items-center">
+        <div>
+          <h4 id="lightboxTitle" class="font-bold text-sm sm:text-base">Photo View</h4>
+          <p id="lightboxDesc" class="text-xs text-slate-400">Degree College Upardaha Baraut</p>
+        </div>
+        <button onclick="closeLightbox()" class="px-4 py-1.5 rounded-lg bg-college-gold text-college-navy font-bold text-xs">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Admin Add Notice Modal (LocalStorage Driven for Easy Updates) -->
+  <div id="adminNoticeModal" class="fixed inset-0 z-50 bg-black/60 hidden items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-lg w-full p-6 shadow-2xl border border-slate-200">
+      <div class="flex items-center justify-between border-b border-slate-200 pb-3 mb-4">
+        <h3 class="font-serif font-bold text-college-navy text-lg flex items-center gap-2">
+          <i data-lucide="shield-check" class="w-5 h-5 text-college-gold"></i> Admin: Post New Notice
+        </h3>
+        <button onclick="closeNoticeModal()" class="text-slate-400 hover:text-slate-600">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <form id="addNoticeForm" onsubmit="handleSaveNotice(event)" class="space-y-4">
+        <div>
+          <label class="block text-xs font-semibold text-slate-700 mb-1">Notice Category</label>
+          <select id="noticeCategoryInput" class="w-full text-xs p-2.5 border rounded-lg focus:ring-1 focus:ring-college-navy" required>
+            <option value="Examination">Examination</option>
+            <option value="Admission">Admission</option>
+            <option value="Scholarship">Scholarship</option>
+            <option value="General">General</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-slate-700 mb-1">Notice Headline / Title</label>
+          <input type="text" id="noticeTitleInput" placeholder="e.g. Schedule for LL.B. & B.Ed. Practicals" class="w-full text-xs p-2.5 border rounded-lg focus:ring-1 focus:ring-college-navy" required />
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-slate-700 mb-1">Detailed Description</label>
+          <textarea id="noticeDescInput" rows="3" placeholder="Provide dates, venues, or instructions for students..." class="w-full text-xs p-2.5 border rounded-lg focus:ring-1 focus:ring-college-navy" required></textarea>
+        </div>
+        <div class="flex items-center justify-end gap-2 pt-2">
+          <button type="button" onclick="closeNoticeModal()" class="px-4 py-2 rounded-lg text-xs font-semibold text-slate-600 hover:bg-slate-100">Cancel</button>
+          <button type="submit" class="px-4 py-2 rounded-lg text-xs font-bold bg-college-navy text-college-goldLight hover:bg-college-navyLight shadow-sm">Publish to Notice Board</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification System -->
+  <div id="toastMessage" class="fixed bottom-5 right-5 z-50 hidden bg-college-navy text-white px-4 py-3 rounded-xl shadow-xl border border-college-gold text-xs font-medium flex items-center gap-2 transform transition-all duration-300">
+    <i data-lucide="check" class="w-4 h-4 text-college-goldLight"></i>
+    <span id="toastText">Action completed successfully</span>
+  </div>
+
+  <script>
+    // Initial Notice Board Data
+    const initialNotices = [
+      {
+        id: 1,
+        title: "PRSU Annual Examination Schedule 2026 for B.A., B.Sc. & B.Com.",
+        category: "Examination",
+        date: "October 02, 2026",
+        description: "Prof. Rajendra Singh (Rajju Bhaiya) University has released the official exam timetables for undergraduate regular and back-paper exams.",
+        pdfName: "PRSU_Exam_Schedule_2026.pdf"
+      },
+      {
+        id: 2,
+        title: "UP Post-Matric Scholarship Scheme 2026-27 Document Verification",
+        category: "Scholarship",
+        date: "September 28, 2026",
+        description: "Students of B.Ed., LL.B., and UG classes must deposit verified hardcopies of their income, caste, and PRSU registration forms at Counter 3.",
+        pdfName: "UP_Scholarship_Notice_2026.pdf"
+      },
+      {
+        id: 3,
+        title: "B.Ed. & B.P.Ed. Entrance Counseling & Document Verification",
+        category: "Admission",
+        date: "September 20, 2026",
+        description: "Shortlisted candidates for Bachelor of Education (B.Ed.) & Physical Education (B.P.Ed.) are requested to report with original certificates.",
+        pdfName: "Bed_Counseling_Verification.pdf"
+      },
+      {
+        id: 4,
+        title: "ITI Electrician & Fitter Trades: Practical Workshop Commencement",
+        category: "General",
+        date: "September 15, 2026",
+        description: "All first-year ITI students are informed that workshop machinery safety orientation begins from coming Monday. Attendance is compulsory.",
+        pdfName: "ITI_Practical_Orientation.pdf"
+      },
+      {
+        id: 5,
+        title: "LL.B. 3-Year Semester Moot Court & Seminar Schedule",
+        category: "Examination",
+        date: "September 10, 2026",
+        description: "Law faculty semester 4 and 6 internal moot court presentations and case study viva schedule announced by the Law Department.",
+        pdfName: "LLB_MootCourt_Schedule.pdf"
+      }
+    ];
+
+    // Demonstrative Results Database for Roll Numbers (Accurate academic representation)
+    const sampleResultsDatabase = {
+      "240101": {
+        rollNo: "240101",
+        enrollmentNo: "PRSU23/98712",
+        studentName: "RAHUL KUMAR TRIPATHI",
+        fatherName: "SURESH TRIPATHI",
+        motherName: "SUSHILA TRIPATHI",
+        course: "B.Sc. (Bachelor of Science) - Semester IV",
+        college: "Degree College Upardaha Baraut Prayagraj",
+        university: "Prof. Rajendra Singh (Rajju Bhaiya) University, Prayagraj",
+        session: "2025-2026",
+        subjects: [
+          { code: "BSC401", name: "Physics: Modern & Nuclear Physics", maxMarks: 100, minPass: 33, obtainedMarks: 76 },
+          { code: "BSC402", name: "Chemistry: Organic & Analytical", maxMarks: 100, minPass: 33, obtainedMarks: 81 },
+          { code: "BSC403", name: "Mathematics: Differential Equations", maxMarks: 100, minPass: 33, obtainedMarks: 88 },
+          { code: "BSC404P", name: "Science Practical & Laboratory Viva", maxMarks: 100, minPass: 33, obtainedMarks: 90 }
+        ],
+        totalMaxMarks: 400,
+        totalObtainedMarks: 335,
+        percentage: "83.75%",
+        resultStatus: "PASSED (FIRST DIVISION)",
+        remarks: "Promoted to Semester V"
+      },
+      "240102": {
+        rollNo: "240102",
+        enrollmentNo: "PRSU23/98713",
+        studentName: "PRIYA MISHRA",
+        fatherName: "VINOD MISHRA",
+        motherName: "ANITA MISHRA",
+        course: "B.A. (Bachelor of Arts) - Semester IV",
+        college: "Degree College Upardaha Baraut Prayagraj",
+        university: "Prof. Rajendra Singh (Rajju Bhaiya) University, Prayagraj",
+        session: "2025-2026",
+        subjects: [
+          { code: "BA401", name: "Hindi Literature & Classical Poetry", maxMarks: 100, minPass: 33, obtainedMarks: 72 },
+          { code: "BA402", name: "Political Science: Indian Government", maxMarks: 100, minPass: 33, obtainedMarks: 78 },
+          { code: "BA403", name: "Ancient Indian History & Culture", maxMarks: 100, minPass: 33, obtainedMarks: 80 },
+          { code: "BA404", name: "Environmental Studies & Values", maxMarks: 100, minPass: 33, obtainedMarks: 85 }
+        ],
+        totalMaxMarks: 400,
+        totalObtainedMarks: 315,
+        percentage: "78.75%",
+        resultStatus: "PASSED (FIRST DIVISION)",
+        remarks: "Promoted to Semester V"
+      },
+      "240103": {
+        rollNo: "240103",
+        enrollmentNo: "PRSU23/98714",
+        studentName: "AMIT YADAV",
+        fatherName: "RAMESH CHANDRA YADAV",
+        motherName: "GEETA YADAV",
+        course: "B.Ed. (Bachelor of Education) - Year II",
+        college: "Degree College Upardaha Baraut Prayagraj",
+        university: "Prof. Rajendra Singh (Rajju Bhaiya) University, Prayagraj",
+        session: "2025-2026",
+        subjects: [
+          { code: "BED201", name: "Contemporary India & Education", maxMarks: 100, minPass: 40, obtainedMarks: 74 },
+          { code: "BED202", name: "Assessment for Learning & Pedagogy", maxMarks: 100, minPass: 40, obtainedMarks: 69 },
+          { code: "BED203", name: "Creating an Inclusive School", maxMarks: 100, minPass: 40, obtainedMarks: 78 },
+          { code: "BED204P", name: "School Internship & Practice Teaching", maxMarks: 200, minPass: 80, obtainedMarks: 178 }
+        ],
+        totalMaxMarks: 500,
+        totalObtainedMarks: 399,
+        percentage: "79.80%",
+        resultStatus: "PASSED (DISTINCTION IN PRACTICAL)",
+        remarks: "Eligible for Degree Award"
+      },
+      "240104": {
+        rollNo: "240104",
+        enrollmentNo: "PRSU23/98715",
+        studentName: "VIVEK SINGH",
+        fatherName: "MAHENDRA PRATAP SINGH",
+        motherName: "SUNITA SINGH",
+        course: "LL.B. (Bachelor of Laws) - Semester II",
+        college: "Degree College Upardaha Baraut Prayagraj",
+        university: "Prof. Rajendra Singh (Rajju Bhaiya) University, Prayagraj",
+        session: "2025-2026",
+        subjects: [
+          { code: "LLB201", name: "Constitutional Law of India II", maxMarks: 100, minPass: 36, obtainedMarks: 64 },
+          { code: "LLB202", name: "Law of Crimes (Indian Penal Code)", maxMarks: 100, minPass: 36, obtainedMarks: 68 },
+          { code: "LLB203", name: "Law of Contract & Specific Relief", maxMarks: 100, minPass: 36, obtainedMarks: 71 },
+          { code: "LLB204", name: "Family Law & Hindu Jurisprudence", maxMarks: 100, minPass: 36, obtainedMarks: 65 }
+        ],
+        totalMaxMarks: 400,
+        totalObtainedMarks: 268,
+        percentage: "67.00%",
+        resultStatus: "PASSED (FIRST DIVISION)",
+        remarks: "Promoted to Semester III"
+      }
+    };
+
+    // Official Downloads Store
+    const downloadDocuments = [
+      {
+        id: "d1",
+        title: "Degree College Upardaha Regular Admission Form 2026-27",
+        category: "admission",
+        type: "PDF Form",
+        size: "1.2 MB",
+        updated: "Sep 2026",
+        desc: "Prescribed application form for B.A., B.Sc., B.Com., and M.A. new admissions."
+      },
+      {
+        id: "d2",
+        title: "PRSU Semester Examination Registration & Admit Card Guidelines",
+        category: "exam",
+        type: "PDF Circular",
+        size: "850 KB",
+        updated: "Oct 2026",
+        desc: "Important instructions regarding admit card verification and exam center codes."
+      },
+      {
+        id: "d3",
+        title: "Uttar Pradesh Post-Matric Scholarship Undertaking & Checklist",
+        category: "scholarship",
+        type: "PDF Form",
+        size: "620 KB",
+        updated: "Aug 2026",
+        desc: "Mandatory income self-declaration format and college counter verification slip."
+      },
+      {
+        id: "d4",
+        title: "Annual Academic Calendar & Holiday List (Session 2026-2027)",
+        category: "academic",
+        type: "PDF Document",
+        size: "950 KB",
+        updated: "July 2026",
+        desc: "Schedule of classes, mid-terms, sports week, winter breaks, and PRSU examination window."
+      },
+      {
+        id: "d5",
+        title: "B.Ed. & B.P.Ed. Practice Teaching Logbook & Proforma",
+        category: "academic",
+        type: "PDF Proforma",
+        size: "1.8 MB",
+        updated: "Aug 2026",
+        desc: "Prescribed 16-week school internship evaluation record for teacher trainees."
+      },
+      {
+        id: "d6",
+        title: "College Library Membership Card & Book Bank Application",
+        category: "admission",
+        type: "PDF Form",
+        size: "440 KB",
+        updated: "Jul 2026",
+        desc: "Requisition form to issue reference books, journals, and syllabus guides."
+      }
+    ];
+
+    // Responsive Photo Gallery Collection
+    const galleryItems = [
+      {
+        category: "building",
+        title: "Administrative Block & Main Campus",
+        subtitle: "Degree College Upardaha Baraut Prayagraj",
+        accent: "#0b1d3a",
+        icon: "landmark",
+        desc: "Sprawling multi-storey academic complex with landscaped administrative gardens."
+      },
+      {
+        category: "classrooms",
+        title: "Smart Lecture Halls",
+        subtitle: "Multimedia & Audio-Visual Teaching",
+        accent: "#162e54",
+        icon: "screen-share",
+        desc: "Spacious, well-ventilated tiered lecture rooms equipped for modern university teaching."
+      },
+      {
+        category: "library",
+        title: "Central Reference Library",
+        subtitle: "Over 20,000+ Textbooks & Journals",
+        accent: "#b45309",
+        icon: "book-open",
+        desc: "Rich repository of law journals, teacher education volumes, and science literature."
+      },
+      {
+        category: "events",
+        title: "Annual Convocation & Cultural Fest",
+        subtitle: "Student Felicitation & Honors",
+        accent: "#7e22ce",
+        icon: "trophy",
+        desc: "Honoring academic toppers of PRSU examinations with medals and merit citations."
+      },
+      {
+        category: "activities",
+        title: "B.P.Ed. Athletics & Sports Ground",
+        subtitle: "Inter-College Physical Education",
+        accent: "#047857",
+        icon: "flag",
+        desc: "Track & field stadium, volleyball, cricket pitch, and fitness conditioning arena."
+      },
+      {
+        category: "activities",
+        title: "Science & Computer Laboratory",
+        subtitle: "Practical Hands-on Experiential Learning",
+        accent: "#0369a1",
+        icon: "flask-conical",
+        desc: "Well-equipped chemistry, physics, and computer setups adhering to modern norms."
+      }
+    ];
+
+    let noticesData = [];
+
+    // Notice Board Functions
+    function initializeNotices() {
+      const stored = localStorage.getItem("dcu_college_notices");
+      if (stored) {
+        try {
+          noticesData = JSON.parse(stored);
+        } catch(e) {
+          noticesData = [...initialNotices];
+        }
+      } else {
+        noticesData = [...initialNotices];
+      }
+      renderNotices('all');
+    }
+
+    function renderNotices(categoryFilter) {
+      const container = document.getElementById("noticeList");
+      container.innerHTML = "";
+
+      const filtered = categoryFilter === 'all' 
+        ? noticesData 
+        : noticesData.filter(n => n.category.toLowerCase() === categoryFilter.toLowerCase());
+
+      if (filtered.length === 0) {
+        container.innerHTML = `
+          <div class="col-span-full py-12 text-center text-slate-500 bg-slate-50 rounded-xl border border-dashed border-slate-300">
+            <i data-lucide="info" class="w-8 h-8 mx-auto mb-2 text-slate-400"></i>
+            <p class="font-medium text-sm">No notices currently listed under this category.</p>
+          </div>
+        `;
+        lucide.createIcons();
+        return;
+      }
+
+      filtered.forEach(notice => {
+        let badgeColor = "bg-blue-100 text-blue-800";
+        if (notice.category === "Examination") badgeColor = "bg-rose-100 text-rose-800";
+        if (notice.category === "Scholarship") badgeColor = "bg-amber-100 text-amber-800";
+        if (notice.category === "Admission") badgeColor = "bg-emerald-100 text-emerald-800";
+
+        const card = document.createElement("div");
+        card.className = "bg-slate-50 hover:bg-white border border-slate-200 hover:border-college-gold rounded-2xl p-5 shadow-sm hover:shadow-md transition duration-200 flex flex-col justify-between";
+        card.innerHTML = `
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-[11px] font-bold px-2 py-0.5 rounded-full ${badgeColor}">
+                ${notice.category}
+              </span>
+              <span class="text-xs text-slate-500 font-medium flex items-center gap-1">
+                <i data-lucide="calendar" class="w-3.5 h-3.5"></i> ${notice.date}
+              </span>
+            </div>
+            <h3 class="font-serif font-bold text-college-navy text-sm sm:text-base leading-snug">
+              ${escapeHtml(notice.title)}
+            </h3>
+            <p class="text-xs text-slate-600 mt-2 line-clamp-3 leading-relaxed">
+              ${escapeHtml(notice.description)}
+            </p>
+          </div>
+          <div class="mt-4 pt-3 border-t border-slate-200/80 flex items-center justify-between">
+            <span class="text-[11px] text-slate-400 flex items-center gap-1">
+              <i data-lucide="file-check-2" class="w-3.5 h-3.5 text-college-gold"></i> Verified
+            </span>
+            <button onclick="simulatePdfDownload('${escapeHtml(notice.title)}')" class="inline-flex items-center gap-1 text-xs font-bold text-college-navy hover:text-college-goldDark transition">
+              <i data-lucide="download" class="w-3.5 h-3.5"></i> Download PDF
+            </button>
+          </div>
+        `;
+        container.appendChild(card);
+      });
+
+      lucide.createIcons();
+    }
+
+    function filterNotices(category) {
+      document.querySelectorAll(".notice-filter-btn").forEach(btn => {
+        if (btn.dataset.category.toLowerCase() === category.toLowerCase()) {
+          btn.className = "notice-filter-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-college-navy text-white transition";
+        } else {
+          btn.className = "notice-filter-btn px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition";
+        }
+      });
+      renderNotices(category);
+    }
+
+    function openNoticeModal() {
+      document.getElementById("adminNoticeModal").classList.remove("hidden");
+      document.getElementById("adminNoticeModal").classList.add("flex");
+    }
+
+    function closeNoticeModal() {
+      document.getElementById("adminNoticeModal").classList.add("hidden");
+      document.getElementById("adminNoticeModal").classList.remove("flex");
+      document.getElementById("addNoticeForm").reset();
+    }
+
+    function handleSaveNotice(e) {
+      e.preventDefault();
+      const cat = document.getElementById("noticeCategoryInput").value;
+      const title = document.getElementById("noticeTitleInput").value.trim();
+      const desc = document.getElementById("noticeDescInput").value.trim();
+
+      if (!title || !desc) return;
+
+      const dateStr = new Date().toLocaleDateString('en-US', {
+        month: 'long',
+        day: '2-digit',
+        year: 'numeric'
+      });
+
+      const newNotice = {
+        id: Date.now(),
+        title: title,
+        category: cat,
+        date: dateStr,
+        description: desc,
+        pdfName: `${cat}_Circular_${Date.now()}.pdf`
+      };
+
+      noticesData.unshift(newNotice);
+      localStorage.setItem("dcu_college_notices", JSON.stringify(noticesData));
+      
+      closeNoticeModal();
+      filterNotices('all');
+      showToast("Notice successfully posted to the College Portal!");
+    }
+
+    // Result Search Functions
+    function fillSample(roll) {
+      const input = document.getElementById("rollNumberInput");
+      input.value = roll;
+      input.focus();
+    }
+
+    function handleResultSearch(event) {
+      event.preventDefault();
+      const rollInput = document.getElementById("rollNumberInput").value.trim();
+      const displayBox = document.getElementById("resultDisplayBox");
+      const notFoundBox = document.getElementById("resultNotFoundBox");
+
+      if (!rollInput) return;
+
+      const result = sampleResultsDatabase[rollInput];
+
+      if (result) {
+        notFoundBox.classList.add("hidden");
+        displayBox.innerHTML = generateResultCardHtml(result);
+        displayBox.classList.remove("hidden");
+        displayBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        lucide.createIcons();
+      } else {
+        displayBox.classList.add("hidden");
+        notFoundBox.classList.remove("hidden");
+      }
+    }
+
+    function generateResultCardHtml(res) {
+      const rowsHtml = res.subjects.map((sub, idx) => `
+        <tr class="border-b border-slate-200 hover:bg-slate-50/80 transition">
+          <td class="p-3 text-xs font-mono text-slate-500">${idx + 1}</td>
+          <td class="p-3 text-xs font-bold text-slate-800">${sub.name} <span class="text-[10px] text-slate-400 font-mono block">${sub.code}</span></td>
+          <td class="p-3 text-xs text-center font-medium">${sub.maxMarks}</td>
+          <td class="p-3 text-xs text-center text-slate-600">${sub.minPass}</td>
+          <td class="p-3 text-xs text-center font-bold text-college-navy">${sub.obtainedMarks}</td>
+          <td class="p-3 text-xs text-center">
+            <span class="px-2 py-0.5 text-[10px] font-bold rounded ${sub.obtainedMarks >= sub.minPass ? 'bg-emerald-100 text-emerald-800' : 'bg-rose-100 text-rose-800'}">
+              ${sub.obtainedMarks >= sub.minPass ? 'PASS' : 'FAIL'}
+            </span>
+          </td>
+        </tr>
+      `).join("");
+
+      return `
+        <div id="printResultSection" class="bg-white rounded-2xl shadow-xl border-2 border-college-gold p-6 sm:p-8">
+          
+          <!-- Official Scorecard Header -->
+          <div class="text-center pb-6 border-b-2 border-slate-200">
+            <div class="flex items-center justify-center gap-3 mb-2">
+              <div class="w-14 h-14 bg-college-navy rounded-full p-1 border-2 border-college-gold flex items-center justify-center text-college-gold">
+                <i data-lucide="graduation-cap" class="w-7 h-7"></i>
+              </div>
+            </div>
+            <h3 class="font-serif font-extrabold text-college-navy text-xl sm:text-2xl uppercase tracking-tight">
+              Degree College Upardaha Baraut Prayagraj
+            </h3>
+            <p class="text-xs font-medium text-slate-600">Affiliated with Prof. Rajendra Singh (Rajju Bhaiya) University, Prayagraj, U.P.</p>
+            <div class="inline-block mt-2 px-3 py-1 bg-college-navy text-college-goldLight text-xs font-bold tracking-widest uppercase rounded">
+              Provisional Statement of Examination Marks
+            </div>
+          </div>
+
+          <!-- Student Profile Grid -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 py-5 text-xs border-b border-slate-200 bg-slate-50/70 p-4 rounded-xl my-4">
+            <div>
+              <span class="text-slate-500 block">Candidate's Name / छात्र का नाम:</span>
+              <strong class="text-slate-900 text-sm font-serif">${res.studentName}</strong>
+            </div>
+            <div>
+              <span class="text-slate-500 block">University Roll Number / अनुक्रमांक:</span>
+              <strong class="text-college-navy text-sm font-mono">${res.rollNo}</strong>
+            </div>
+            <div>
+              <span class="text-slate-500 block">Father's Name / पिता का नाम:</span>
+              <strong class="text-slate-800">${res.fatherName}</strong>
+            </div>
+            <div>
+              <span class="text-slate-500 block">University Enrollment Number:</span>
+              <strong class="text-slate-800 font-mono">${res.enrollmentNo}</strong>
+            </div>
+            <div class="sm:col-span-2">
+              <span class="text-slate-500 block">Program / Course & Session:</span>
+              <strong class="text-college-navy text-sm">${res.course} (${res.session})</strong>
+            </div>
+          </div>
+
+          <!-- Marks Table -->
+          <div class="overflow-x-auto rounded-xl border border-slate-200 mb-5">
+            <table class="w-full text-left border-collapse">
+              <thead class="bg-college-navy text-slate-200 text-xs">
+                <tr>
+                  <th class="p-3 w-12">#</th>
+                  <th class="p-3">Course Paper / Subject Title</th>
+                  <th class="p-3 text-center">Max Marks</th>
+                  <th class="p-3 text-center">Min Pass</th>
+                  <th class="p-3 text-center">Marks Obtained</th>
+                  <th class="p-3 text-center">Paper Status</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-100 bg-white">
+                ${rowsHtml}
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Summary Bar -->
+          <div class="bg-amber-50/70 border border-amber-200 rounded-xl p-4 flex flex-wrap items-center justify-between gap-4 text-xs">
+            <div>
+              <span class="text-slate-600 block">Aggregated Marks:</span>
+              <span class="text-base font-bold text-college-navy">${res.totalObtainedMarks} / ${res.totalMaxMarks}</span>
+            </div>
+            <div>
+              <span class="text-slate-600 block">Percentage:</span>
+              <span class="text-base font-bold text-college-navy">${res.percentage}</span>
+            </div>
+            <div>
+              <span class="text-slate-600 block">Overall Result:</span>
+              <span class="text-xs font-extrabold uppercase px-3 py-1 bg-emerald-700 text-white rounded-md">
+                ${res.resultStatus}
+              </span>
+            </div>
+            <div>
+              <span class="text-slate-600 block">Academic Remarks:</span>
+              <span class="font-semibold text-slate-800">${res.remarks}</span>
+            </div>
+          </div>
+
+          <!-- Footer Actions & Print Button -->
+          <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-slate-200 mt-6 no-print">
+            <p class="text-[11px] text-slate-400 text-center sm:text-left">
+              * Provisional digital copy. Official original grade certificates are issued by Prof. Rajendra Singh (Rajju Bhaiya) University.
+            </p>
+            <div class="flex items-center gap-2">
+              <button onclick="window.print()" class="px-4 py-2 bg-college-navy text-college-goldLight text-xs font-bold rounded-lg hover:bg-college-navyLight flex items-center gap-1.5 transition shadow">
+                <i data-lucide="printer" class="w-4 h-4"></i> Print Result Card
+              </button>
+              <button onclick="document.getElementById('resultDisplayBox').classList.add('hidden')" class="px-3 py-2 bg-slate-100 text-slate-700 text-xs font-semibold rounded-lg hover:bg-slate-200">
+                Close
+              </button>
+            </div>
+          </div>
+
+        </div>
+      `;
+    }
+
+    // Downloads Center Functions
+    function renderDownloads(category) {
+      const container = document.getElementById("documentsContainer");
+      container.innerHTML = "";
+
+      const filtered = category === 'all' 
+        ? downloadDocuments 
+        : downloadDocuments.filter(d => d.category.toLowerCase() === category.toLowerCase());
+
+      filtered.forEach(doc => {
+        const item = document.createElement("div");
+        item.className = "p-4 sm:p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 hover:bg-slate-50 transition";
+        item.innerHTML = `
+          <div class="flex items-start gap-3.5">
+            <div class="w-10 h-10 rounded-lg bg-red-100 text-red-700 flex items-center justify-center shrink-0 mt-0.5">
+              <i data-lucide="file-text" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <h4 class="font-bold text-college-navy text-sm sm:text-base">${escapeHtml(doc.title)}</h4>
+              <p class="text-xs text-slate-500 mt-0.5">${escapeHtml(doc.desc)}</p>
+              <div class="flex items-center gap-3 mt-1.5 text-[11px] text-slate-400">
+                <span class="font-medium text-slate-600">${doc.type}</span>
+                <span>•</span>
+                <span>Size: ${doc.size}</span>
+                <span>•</span>
+                <span>Updated: ${doc.updated}</span>
+              </div>
+            </div>
+          </div>
+          <button onclick="simulatePdfDownload('${escapeHtml(doc.title)}')" class="shrink-0 px-4 py-2 rounded-lg bg-college-navy hover:bg-college-navyLight text-college-goldLight text-xs font-bold transition flex items-center gap-1.5 shadow-sm">
+            <i data-lucide="download" class="w-4 h-4"></i> Download PDF
+          </button>
+        `;
+        container.appendChild(item);
+      });
+
+      lucide.createIcons();
+    }
+
+    function switchDownloadTab(tabName) {
+      document.querySelectorAll(".dl-tab-btn").forEach(btn => {
+        if (btn.dataset.dltab === tabName) {
+          btn.className = "dl-tab-btn active-dl-tab px-4 py-2 rounded-lg text-xs font-bold bg-college-navy text-white transition";
+        } else {
+          btn.className = "dl-tab-btn px-4 py-2 rounded-lg text-xs font-bold bg-white text-slate-700 hover:bg-slate-200 transition";
+        }
+      });
+      renderDownloads(tabName);
+    }
+
+    // Photo Gallery Functions
+    function renderGallery(cat) {
+      const container = document.getElementById("galleryGrid");
+      container.innerHTML = "";
+
+      const filtered = cat === 'all' 
+        ? galleryItems 
+        : galleryItems.filter(g => g.category.toLowerCase() === cat.toLowerCase());
+
+      filtered.forEach((img) => {
+        const item = document.createElement("div");
+        item.className = "group relative bg-slate-900 rounded-2xl overflow-hidden shadow-md cursor-pointer border border-slate-200 aspect-[4/3] flex flex-col justify-end p-5";
+        item.onclick = () => openLightbox(img);
+
+        item.innerHTML = `
+          <div class="absolute inset-0 bg-gradient-to-t from-college-navy via-slate-900/60 to-transparent z-10"></div>
+          <div class="absolute inset-0 flex items-center justify-center p-6 text-white/20 group-hover:scale-110 transition duration-500" style="background-color: ${img.accent};">
+            <i data-lucide="${img.icon}" class="w-24 h-24 stroke-1"></i>
+          </div>
+
+          <div class="relative z-20">
+            <span class="inline-block text-[10px] font-bold uppercase tracking-wider text-college-goldLight bg-white/10 px-2 py-0.5 rounded backdrop-blur-sm mb-1.5 border border-white/20">
+              ${img.category}
+            </span>
+            <h4 class="font-serif font-bold text-white text-base leading-snug group-hover:text-college-gold transition">
+              ${img.title}
+            </h4>
+            <p class="text-xs text-slate-300 line-clamp-1 mt-0.5">${img.subtitle}</p>
+          </div>
+
+          <div class="absolute top-3 right-3 z-20 bg-white/20 backdrop-blur-md rounded-full p-2 text-white opacity-0 group-hover:opacity-100 transition">
+            <i data-lucide="maximize-2" class="w-4 h-4"></i>
+          </div>
+        `;
+        container.appendChild(item);
+      });
+
+      lucide.createIcons();
+    }
+
+    function filterGallery(cat) {
+      document.querySelectorAll(".gallery-btn").forEach(btn => {
+        if (btn.dataset.gcat === cat) {
+          btn.className = "gallery-btn px-4 py-1.5 rounded-full text-xs font-semibold bg-college-navy text-white transition";
+        } else {
+          btn.className = "gallery-btn px-4 py-1.5 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 transition";
+        }
+      });
+      renderGallery(cat);
+    }
+
+    function openLightbox(item) {
+      const modal = document.getElementById("lightboxModal");
+      const content = document.getElementById("lightboxContent");
+      const title = document.getElementById("lightboxTitle");
+      const desc = document.getElementById("lightboxDesc");
+
+      title.innerText = item.title;
+      desc.innerText = `${item.subtitle} — ${item.desc}`;
+
+      content.innerHTML = `
+        <div class="w-full h-80 flex flex-col items-center justify-center text-center p-8" style="background: ${item.accent};">
+          <i data-lucide="${item.icon}" class="w-28 h-28 text-white/80 mb-4 animate-pulse"></i>
+          <h3 class="text-2xl font-serif font-bold text-white">${item.title}</h3>
+          <p class="text-sm text-college-goldLight mt-2 max-w-md">${item.desc}</p>
+        </div>
+      `;
+
+      modal.classList.remove("hidden");
+      modal.classList.add("flex");
+      lucide.createIcons();
+    }
+
+    function closeLightbox() {
+      const modal = document.getElementById("lightboxModal");
+      modal.classList.add("hidden");
+      modal.classList.remove("flex");
+    }
+
+    // Utilities
+    function simulatePdfDownload(title) {
+      showToast(`Downloading: ${title.substring(0, 36)}...`);
+    }
+
+    function showToast(message) {
+      const toast = document.getElementById("toastMessage");
+      const text = document.getElementById("toastText");
+      text.innerText = message;
+      toast.classList.remove("hidden");
+      setTimeout(() => {
+        toast.classList.add("hidden");
+      }, 4000);
+    }
+
+    function escapeHtml(string) {
+      return String(string).replace(/[&<>"']/g, function(s) {
+        return {
+          '&': '&amp;',
+          '<': '&lt;',
+          '>': '&gt;',
+          '"': '&quot;',
+          "'": '&#39;'
+        }[s];
+      });
+    }
+
+    // Lifecycle
+    document.addEventListener("DOMContentLoaded", () => {
+      document.getElementById("currentYear").textContent = new Date().getFullYear();
+
+      initializeNotices();
+      renderDownloads('all');
+      renderGallery('all');
+
+      // Mobile Menu
+      const mobileBtn = document.getElementById("mobileMenuBtn");
+      const mobileMenu = document.getElementById("mobileMenu");
+
+      mobileBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+
+      document.querySelectorAll(".mobile-nav-link").forEach(link => {
+        link.addEventListener("click", () => {
+          mobileMenu.classList.add("hidden");
+        });
+      });
+
+      // Escape key to dismiss modals
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+          closeLightbox();
+          closeNoticeModal();
+        }
+      });
+
+      lucide.createIcons();
+    });
+  </script>
+</body>
+</html>
