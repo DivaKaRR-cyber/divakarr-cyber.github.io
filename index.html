@@ -72,11 +72,12 @@
         <span class="bg-college-gold text-slate-900 text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded">Affiliated</span>
         <span class="truncate">Prof. Rajendra Singh (Rajju Bhaiya) University, Prayagraj</span>
       </div>
-      <div class="flex flex-wrap items-center gap-3 sm:gap-5 text-xs">
+      <div class="flex flex-wrap items-center gap-3 sm:gap-4 text-xs">
         <span class="bg-white/10 px-2 py-0.5 rounded text-slate-100 font-mono">College Code: <strong class="text-college-goldLight">01069</strong></span>
-        <span>Manager: <strong class="text-slate-100">Mr. Ashok Kumar Singh</strong></span>
+        <span>Manager: <strong class="text-slate-100">Dr. Ashok Kumar Singh</strong></span>
         <span>Director: <strong class="text-slate-100">Dr. Vivek Kumar Singh</strong></span>
-        <span class="text-college-goldLight font-medium hidden lg:inline">3,000+ Students</span>
+        <span>Principal: <strong class="text-slate-100">Mr. Vinod Kumar Singh</strong></span>
+        <span class="text-college-goldLight font-medium hidden xl:inline">3,000+ Students</span>
       </div>
     </div>
   </div>
@@ -102,6 +103,7 @@
 
       <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
         <a href="#home" class="hover:text-college-gold transition-colors">Home</a>
+        <a href="#director" class="hover:text-college-gold transition-colors">Director's Desk</a>
         <a href="#notices" class="hover:text-college-gold transition-colors">Notice Board</a>
         <a href="#results" class="bg-college-gold text-slate-900 font-bold px-3 py-1.5 rounded hover:bg-college-goldLight transition-all shadow-md">Check Results</a>
         <a href="#courses" class="hover:text-college-gold transition-colors">Courses</a>
@@ -117,6 +119,7 @@
     <!-- Mobile Nav Dropdown -->
     <div id="mobileMenu" class="hidden md:hidden bg-college-navyLight border-t border-college-gold/20 px-4 py-3 space-y-2 text-sm">
       <a href="#home" class="block py-1 hover:text-college-gold">Home</a>
+      <a href="#director" class="block py-1 hover:text-college-gold">Director's Desk</a>
       <a href="#notices" class="block py-1 hover:text-college-gold">Notice Board</a>
       <a href="#results" class="block py-1 font-bold text-college-goldLight">Student Results Portal</a>
       <a href="#courses" class="block py-1 hover:text-college-gold">Courses</a>
@@ -172,15 +175,35 @@
     </div>
   </section>
 
+  <!-- DIRECTOR DESK SECTION -->
+  <section id="director" class="py-14 bg-white border-b border-slate-200">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-gradient-to-br from-slate-50 to-amber-50/30 border border-slate-200 rounded-2xl p-6 sm:p-10 shadow-sm flex flex-col md:flex-row items-center gap-8">
+        <div class="relative w-44 h-44 sm:w-52 sm:h-52 rounded-2xl overflow-hidden shadow-xl border-4 border-college-gold flex-shrink-0 bg-slate-200">
+          <img src="director.jpg" alt="Dr. Vivek Kumar Singh - Director" class="w-full h-full object-cover object-top" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80';">
+        </div>
+        <div class="space-y-3 text-center md:text-left">
+          <span class="text-xs font-bold text-college-goldDark uppercase tracking-wider bg-college-gold/15 px-3 py-1 rounded-full inline-block">Director's Desk</span>
+          <h3 class="text-2xl sm:text-3xl font-serif font-bold text-college-navy">Dr. Vivek Kumar Singh</h3>
+          <p class="text-xs sm:text-sm font-semibold text-slate-600">Director &bull; Degree College Upardaha, Baraut, Prayagraj</p>
+          <div class="w-12 h-0.5 bg-college-gold mx-auto md:mx-0 my-2"></div>
+          <p class="text-sm text-slate-700 leading-relaxed font-hindi pt-1">
+            "हमारा उद्देश्य ग्रामीण अंचल के प्रत्येक छात्र-छात्रा को गुणवत्तापूर्ण और नैतिक उच्च शिक्षा उपलब्ध कराना है, जिससे वे आत्मनिर्भर होकर राष्ट्र निर्माण में अपना सक्रिय योगदान दे सकें।"
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Notice Section -->
-  <section id="notices" class="py-12 bg-white border-b border-slate-200">
+  <section id="notices" class="py-12 bg-slate-50 border-b border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-8 gap-4">
         <div>
           <span class="text-xs font-bold text-college-gold uppercase tracking-wider">Official Circulars</span>
           <h3 class="text-2xl sm:text-3xl font-serif font-bold text-college-navy">Campus Notice Board</h3>
         </div>
-        <button onclick="toggleNoticeModal(true)" class="text-xs bg-slate-100 hover:bg-slate-200 text-slate-700 px-3 py-1.5 rounded font-medium border border-slate-300 flex items-center gap-1.5">
+        <button onclick="toggleNoticeModal(true)" class="text-xs bg-white hover:bg-slate-100 text-slate-700 px-3 py-1.5 rounded font-medium border border-slate-300 flex items-center gap-1.5 shadow-sm">
           <i data-lucide="plus-circle" class="w-4 h-4 text-college-navy"></i> Admin: Add Notice
         </button>
       </div>
