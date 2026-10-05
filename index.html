@@ -80,6 +80,11 @@
       </div>
     </div>
   </div>
+
+  <!-- Main Header -->
+  <header class="bg-college-navy text-white shadow-xl sticky top-0 z-40 border-b-2 border-college-gold">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4 flex justify-between items-center">
+      <div class="flex items-center gap-3">
         <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-gradient-to-tr from-college-goldDark via-college-gold to-college-goldLight p-0.5 flex items-center justify-center shadow-lg">
           <div class="w-full h-full bg-college-navy rounded-full flex items-center justify-center">
             <i data-lucide="graduation-cap" class="w-7 h-7 sm:w-8 sm:h-8 text-college-goldLight"></i>
@@ -114,7 +119,7 @@
       <a href="#home" class="block py-1 hover:text-college-gold">Home</a>
       <a href="#notices" class="block py-1 hover:text-college-gold">Notice Board</a>
       <a href="#results" class="block py-1 font-bold text-college-goldLight">Student Results Portal</a>
-      <a href="#courses" class="block py-1 hover:text-college-gold">Courses & Seats</a>
+      <a href="#courses" class="block py-1 hover:text-college-gold">Courses</a>
       <a href="#gallery" class="block py-1 hover:text-college-gold">Campus Gallery</a>
       <a href="#contact" class="block py-1 hover:text-college-gold">Contact</a>
     </div>
@@ -184,14 +189,22 @@
         <!-- Rendered via JS -->
       </div>
     </div>
-  <select id="resultCourseSelect" class="w-full bg-slate-50 border border-slate-300 rounded-lg px-4 py-3 text-sm focus:ring-2 focus:ring-college-gold focus:outline-none">
-                <option value="BA">B.A. (Bachelor of Arts)</option>
-                <option value="BSC">B.Sc. (Bachelor of Science)</option>
-                <option value="BCOM">B.Com. (Bachelor of Commerce)</option>
-                <option value="MA">M.A. (Master of Arts)</option>
-                <option value="BED">B.Ed. (Bachelor of Education)</option>
-                <option value="LLB">LL.B. (Bachelor of Laws)</option>
-              </select>
+  </section>
+
+  <!-- RESULT SEARCH SECTION -->
+  <section id="results" class="py-16 bg-gradient-to-br from-slate-100 via-white to-slate-100 border-b border-slate-200 scroll-mt-16">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <span class="inline-block bg-college-navy text-college-goldLight text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full mb-3 shadow-sm">
+          Examination Portal &bull; Rajju Bhaiya University
+        </span>
+        <h3 class="text-2xl sm:text-4xl font-serif font-bold text-college-navy">
+          Online Student Marks & Grade Search
+        </h3>
+        <p class="text-sm text-slate-600 mt-2">
+          Select course and enter roll number to download official university statement of marks.
+        </p>
+      </div>
 
       <!-- Search Card -->
       <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl border border-slate-200 mb-8">
@@ -202,9 +215,9 @@
                 Select Course / पाठ्यक्रम चुनें:
               </label>
               <select id="resultCourseSelect" class="w-full bg-slate-50 border border-slate-300 rounded-lg px-4 py-3 text-sm focus:ring-2 focus:ring-college-gold focus:outline-none">
-                <option value="BA">B.A. (Bachelor of Arts - 800 Seats)</option>
-                <option value="BSC">B.Sc. (Bachelor of Science - 889 Seats)</option>
-                <option value="BCOM">B.Com. (Bachelor of Commerce - 300 Seats)</option>
+                <option value="BA">B.A. (Bachelor of Arts)</option>
+                <option value="BSC">B.Sc. (Bachelor of Science)</option>
+                <option value="BCOM">B.Com. (Bachelor of Commerce)</option>
                 <option value="MA">M.A. (Master of Arts)</option>
                 <option value="BED">B.Ed. (Bachelor of Education)</option>
                 <option value="LLB">LL.B. (Bachelor of Laws)</option>
